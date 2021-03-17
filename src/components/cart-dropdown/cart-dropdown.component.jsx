@@ -27,7 +27,7 @@ const CartDropdown = ({ history }) => {
                     toggleHidden()
                 }}
             >
-                GO TO CHECKOUT
+                BUY
             </CustomButton>
         </div>
     )
