@@ -35,7 +35,7 @@ const Header = () => {
                 )}
                 <CartIcon />
             </div>
-            {hidden ? null : <CartDropdown />}
+            {!hidden && <CartDropdown />}
         </div>
     )
 }
